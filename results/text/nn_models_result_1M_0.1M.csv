@@ -1,0 +1,9 @@
+model name,f1 score,precision,recall,accuracy
+rnn_lstm_balanced,0.0,0.0,0.0,0.955
+rnn_lstm_representative,0.0,0.0,0.0,0.955
+bidirectional_rnn_balanced,0.0,0.0,0.0,0.955
+bidirectional_rnn_representative,0.0,0.0,0.0,0.955
+rnn_balanced,0.0,0.0,0.0,0.955
+rnn_representative,0.0,0.0,0.0,0.955
+cnn_balanced,0.0,0.0,0.0,0.955
+cnn_representative,0.0,0.0,0.0,0.955

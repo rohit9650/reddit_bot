@@ -1,0 +1,13 @@
+model name,f1 score,precision,recall,accuracy
+"naive_bayes.MultinomialNB() 
+ Count vectors 
+ Representative",0.364,0.398,0.335,0.938
+"naive_bayes.MultinomialNB() 
+ WordLevel TF-IDF 
+ Representative",0.207,0.117,0.9,0.96
+"naive_bayes.MultinomialNB() 
+ N-Gram Vectors 
+ Representative",0.153,0.087,0.645,0.957
+"naive_bayes.MultinomialNB() 
+ N-Gram Vectors 
+ Representative",0.211,0.139,0.438,0.954

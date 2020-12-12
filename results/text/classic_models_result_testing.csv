@@ -1,0 +1,129 @@
+model name,f1 score,precision,recall,accuracy,confusion  matrix
+"naive_bayes.MultinomialNB() 
+ Count vectors 
+ Balanced",0.365,0.852,0.232,0.84,"[[397  76]
+ [  4  23]]"
+"naive_bayes.MultinomialNB() 
+ Count vectors 
+ Representative",0.537,0.667,0.45,0.938,"[[451  22]
+ [  9  18]]"
+"naive_bayes.MultinomialNB() 
+ WordLevel TF-IDF 
+ Balanced",0.291,0.593,0.193,0.844,"[[406  67]
+ [ 11  16]]"
+"naive_bayes.MultinomialNB() 
+ WordLevel TF-IDF 
+ Representative",0.258,0.148,1.0,0.954,"[[473   0]
+ [ 23   4]]"
+"naive_bayes.MultinomialNB() 
+ N-Gram Vectors 
+ Balanced",0.213,0.741,0.124,0.704,"[[332 141]
+ [  7  20]]"
+"naive_bayes.MultinomialNB() 
+ N-Gram Vectors 
+ Representative",0.25,0.148,0.8,0.952,"[[472   1]
+ [ 23   4]]"
+"naive_bayes.MultinomialNB() 
+ CharLevel Vectors 
+ Balanced",0.4,0.704,0.279,0.886,"[[424  49]
+ [  8  19]]"
+"naive_bayes.MultinomialNB() 
+ CharLevel Vectors 
+ Representative",0.235,0.148,0.571,0.948,"[[470   3]
+ [ 23   4]]"
+"linear_model.LogisticRegression() 
+ Count vectors 
+ Balanced",0.317,0.741,0.202,0.828,"[[394  79]
+ [  7  20]]"
+"linear_model.LogisticRegression() 
+ Count vectors 
+ Representative",0.851,0.741,1.0,0.986,"[[473   0]
+ [  7  20]]"
+"linear_model.LogisticRegression() 
+ WordLevel TF-IDF 
+ Balanced",0.264,0.593,0.17,0.822,"[[395  78]
+ [ 11  16]]"
+"linear_model.LogisticRegression() 
+ WordLevel TF-IDF 
+ Representative",0.312,0.185,1.0,0.956,"[[473   0]
+ [ 22   5]]"
+"linear_model.LogisticRegression() 
+ N-Gram Vectors 
+ Balanced",0.171,0.667,0.098,0.65,"[[307 166]
+ [  9  18]]"
+"linear_model.LogisticRegression() 
+ N-Gram Vectors 
+ Representative",0.0,0.0,0.0,0.946,"[[473   0]
+ [ 27   0]]"
+"linear_model.LogisticRegression() 
+ CharLevel Vectors 
+ Balanced",0.41,0.593,0.314,0.908,"[[438  35]
+ [ 11  16]]"
+"linear_model.LogisticRegression() 
+ CharLevel Vectors 
+ Representative",0.412,0.259,1.0,0.96,"[[473   0]
+ [ 20   7]]"
+"ensemble.RandomForestClassifier() 
+ Count vectors 
+ Balanced",0.291,0.815,0.177,0.786,"[[371 102]
+ [  5  22]]"
+"ensemble.RandomForestClassifier() 
+ Count vectors 
+ Representative",1.0,1.0,1.0,1.0,"[[473   0]
+ [  0  27]]"
+"ensemble.RandomForestClassifier() 
+ WordLevel TF-IDF 
+ Balanced",0.32,0.741,0.204,0.83,"[[395  78]
+ [  7  20]]"
+"ensemble.RandomForestClassifier() 
+ WordLevel TF-IDF 
+ Representative",1.0,1.0,1.0,1.0,"[[473   0]
+ [  0  27]]"
+"ensemble.RandomForestClassifier() 
+ N-Gram Vectors 
+ Balanced",0.199,0.741,0.115,0.678,"[[319 154]
+ [  7  20]]"
+"ensemble.RandomForestClassifier() 
+ N-Gram Vectors 
+ Representative",0.714,0.556,1.0,0.976,"[[473   0]
+ [ 12  15]]"
+"ensemble.RandomForestClassifier() 
+ CharLevel Vectors 
+ Balanced",0.41,0.593,0.314,0.908,"[[438  35]
+ [ 11  16]]"
+"ensemble.RandomForestClassifier() 
+ CharLevel Vectors 
+ Representative",1.0,1.0,1.0,1.0,"[[473   0]
+ [  0  27]]"
+"xgboost.XGBClassifier() 
+ Count vectors 
+ Balanced",0.305,0.667,0.198,0.836,"[[400  73]
+ [  9  18]]"
+"xgboost.XGBClassifier() 
+ Count vectors 
+ Representative",0.8,0.667,1.0,0.982,"[[473   0]
+ [  9  18]]"
+"xgboost.XGBClassifier() 
+ WordLevel TF-IDF 
+ Balanced",0.295,0.704,0.186,0.818,"[[390  83]
+ [  8  19]]"
+"xgboost.XGBClassifier() 
+ WordLevel TF-IDF 
+ Representative",0.851,0.741,1.0,0.986,"[[473   0]
+ [  7  20]]"
+"xgboost.XGBClassifier() 
+ N-Gram Vectors 
+ Balanced",0.169,0.778,0.095,0.588,"[[273 200]
+ [  6  21]]"
+"xgboost.XGBClassifier() 
+ N-Gram Vectors 
+ Representative",0.5,0.333,1.0,0.964,"[[473   0]
+ [ 18   9]]"
+"xgboost.XGBClassifier() 
+ CharLevel Vectors 
+ Balanced",0.406,0.519,0.333,0.918,"[[445  28]
+ [ 13  14]]"
+"xgboost.XGBClassifier() 
+ CharLevel Vectors 
+ Representative",1.0,1.0,1.0,1.0,"[[473   0]
+ [  0  27]]"
